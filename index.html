@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unidad Educativa [Nombre] - Reseña Histórica</title>
+    <title>Unidad Educativa Enero 23 - Reseña Histórica</title>
     <style>
         * {
             margin: 0;
@@ -131,7 +131,7 @@
             margin-bottom: 10px;
         }
 
-        /* Personal directivo */
+        /* Personal directivo y docente */
         .staff-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -157,7 +157,7 @@
             font-size: 0.9em;
         }
 
-        /* Estadísticas simples */
+        /* Estadísticas académicas */
         .stats-container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -250,17 +250,9 @@
             color: white;
         }
 
-        .btn-phone:hover {
-            background-color: #2ecc71;
-        }
-
         .btn-email {
             background-color: #3498db;
             color: white;
-        }
-
-        .btn-email:hover {
-            background-color: #5dade2;
         }
 
         .btn-copy {
@@ -271,12 +263,9 @@
             font-size: 1em;
         }
 
-        .btn-copy:hover {
-            background-color: #f1c40f;
-        }
-
         .contact-info-detailed {
             background-color: white;
+            color: #2c3e50;
             padding: 20px;
             border-radius: 10px;
             margin-top: 20px;
@@ -298,11 +287,6 @@
             font-size: 1.5em;
             min-width: 40px;
             text-align: center;
-        }
-
-        .contact-text {
-            font-size: 1.1em;
-            color: #2c3e50;
         }
 
         .contact-text a {
@@ -380,10 +364,6 @@
             text-decoration: none;
         }
 
-        .footer-contact-item a:hover {
-            text-decoration: underline;
-        }
-
         .footer-copyright {
             text-align: center;
             margin-top: 30px;
@@ -411,11 +391,6 @@
             .contact-buttons {
                 flex-direction: column;
             }
-
-            .contact-btn {
-                width: 100%;
-                justify-content: center;
-            }
         }
     </style>
 </head>
@@ -423,7 +398,7 @@
     <div class="container">
         <!-- Encabezado -->
         <div class="header">
-            <h1>Unidad Educativa [Nombre de la Institución]</h1>
+            <h1>Unidad Educativa Enero 23</h1>
             <p>"[Lema de la institución]"</p>
             <div class="ano-fundacion">
                 Fundada en [Año]
@@ -435,6 +410,7 @@
             <a href="#historia">Historia</a>
             <a href="#fundadores">Fundadores</a>
             <a href="#directivos">Directivos</a>
+            <a href="#docentes">Docentes</a>
             <a href="#logros">Logros</a>
             <a href="#galeria">Galería</a>
             <a href="#contacto">Contacto</a>
@@ -442,7 +418,7 @@
 
         <!-- Contenido principal -->
         <div class="main-content">
-            <!-- Estadísticas simples -->
+            <!-- Estadísticas académicas -->
             <div class="stats-container">
                 <div class="stat-box">
                     <span class="stat-number">[XX]</span>
@@ -490,20 +466,20 @@
                     <div class="contact-row">
                         <div class="contact-icon">✉️</div>
                         <div class="contact-text">
-                            <strong>Correo electrónico:</strong> 
+                            <strong>Correo:</strong> 
                             <a href="mailto:unidadeducativaenero23@gmail.com">unidadeducativaenero23@gmail.com</a>
                         </div>
                     </div>
                     <div class="contact-row">
                         <div class="contact-icon">📍</div>
                         <div class="contact-text">
-                            <strong>Dirección:</strong> [Dirección completa de la unidad educativa]
+                            <strong>Dirección:</strong> [Dirección completa]
                         </div>
                     </div>
                     <div class="contact-row">
                         <div class="contact-icon">🕒</div>
                         <div class="contact-text">
-                            <strong>Horario de atención:</strong> Lunes a Viernes, 8:00 AM - 12:00 PM
+                            <strong>Horario:</strong> Lunes a Viernes, 8:00 AM - 12:00 PM
                         </div>
                     </div>
                 </div>
@@ -515,22 +491,22 @@
                 <div class="timeline">
                     <div class="timeline-item">
                         <div class="timeline-year">[Año de fundación]</div>
-                        <p>[Historia de cómo se fundó la institución, quiénes fueron los gestores, las condiciones en las que inició, etc.]</p>
+                        <p>[Historia de cómo se fundó la institución]</p>
                     </div>
                     
                     <div class="timeline-item">
                         <div class="timeline-year">[Año importante]</div>
-                        <p>[Primeros logros, crecimiento, reconocimientos importantes]</p>
+                        <p>[Primeros logros y crecimiento]</p>
                     </div>
                     
                     <div class="timeline-item">
                         <div class="timeline-year">[Año importante]</div>
-                        <p>[Cambios significativos, nuevas instalaciones, ampliación de niveles educativos]</p>
+                        <p>[Cambios significativos]</p>
                     </div>
                     
                     <div class="timeline-item">
                         <div class="timeline-year">Actualidad</div>
-                        <p>[Situación actual de la institución, proyectos presentes, visión a futuro]</p>
+                        <p>[Situación actual]</p>
                     </div>
                 </div>
             </section>
@@ -540,15 +516,15 @@
                 <h2>👥 Nuestros Fundadores</h2>
                 <div class="staff-grid">
                     <div class="staff-card">
-                        <h3>[Nombre del Fundador 1]</h3>
+                        <h3>[Fundador 1]</h3>
                         <p>Fundador</p>
-                        <p style="margin-top: 10px;">[Breve descripción de su rol y legado]</p>
+                        <p>[Breve descripción]</p>
                     </div>
                     
                     <div class="staff-card">
-                        <h3>[Nombre del Fundador 2]</h3>
+                        <h3>[Fundador 2]</h3>
                         <p>Co-fundador</p>
-                        <p style="margin-top: 10px;">[Breve descripción de su rol y legado]</p>
+                        <p>[Breve descripción]</p>
                     </div>
                 </div>
             </section>
@@ -558,47 +534,61 @@
                 <h2>👨‍🏫 Personal Directivo</h2>
                 <div class="staff-grid">
                     <div class="staff-card">
-                        <h3>[Nombre del Director]</h3>
+                        <h3>[Director]</h3>
                         <p>Director(a)</p>
-                        <p style="margin-top: 10px;">[Años en el cargo]</p>
                     </div>
                     
                     <div class="staff-card">
-                        <h3>[Nombre del Subdirector]</h3>
+                        <h3>[Subdirector]</h3>
                         <p>Subdirector(a)</p>
-                        <p style="margin-top: 10px;">[Años en el cargo]</p>
                     </div>
                     
                     <div class="staff-card">
-                        <h3>[Nombre del Secretario]</h3>
+                        <h3>[Secretario]</h3>
                         <p>Secretario(a)</p>
-                        <p style="margin-top: 10px;">[Años en el cargo]</p>
                     </div>
                 </div>
             </section>
 
-            <!-- Logros y Reconocimientos -->
+            <!-- Sección de Docentes -->
+            <section id="docentes" class="section">
+                <h2>👩‍🏫 Nuestros Docentes</h2>
+                <div class="staff-grid">
+                    <div class="staff-card">
+                        <h3>[Docente 1]</h3>
+                        <p>[Materia/Nivel]</p>
+                    </div>
+                    <div class="staff-card">
+                        <h3>[Docente 2]</h3>
+                        <p>[Materia/Nivel]</p>
+                    </div>
+                    <div class="staff-card">
+                        <h3>[Docente 3]</h3>
+                        <p>[Materia/Nivel]</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Logros -->
             <section id="logros" class="section">
-                <h2>🏆 Logros y Reconocimientos</h2>
+                <h2>🏆 Logros</h2>
                 <div class="info-card">
-                    <ul style="margin-left: 20px; line-height: 1.8;">
-                        <li>[Logro importante 1] - [Año]</li>
-                        <li>[Logro importante 2] - [Año]</li>
-                        <li>[Logro importante 3] - [Año]</li>
-                        <li>[Participación en eventos académicos/culturales]</li>
-                        <li>[Reconocimientos de la comunidad]</li>
+                    <ul style="margin-left: 20px;">
+                        <li>[Logro 1]</li>
+                        <li>[Logro 2]</li>
+                        <li>[Logro 3]</li>
                     </ul>
                 </div>
             </section>
 
-            <!-- Galería (placeholder) -->
+            <!-- Galería -->
             <section id="galeria" class="section">
-                <h2>📸 Momentos importantes</h2>
+                <h2>📸 Galería</h2>
                 <div class="gallery">
+                    <div class="gallery-item">Fundación</div>
                     <div class="gallery-item">Primera promoción</div>
-                    <div class="gallery-item">Aniversario [XX]</div>
-                    <div class="gallery-item">Evento cultural</div>
-                    <div class="gallery-item">Clase inaugural</div>
+                    <div class="gallery-item">Eventos</div>
+                    <div class="gallery-item">Actualidad</div>
                 </div>
             </section>
 
@@ -606,19 +596,19 @@
             <section class="section">
                 <h2>🎯 Misión y Visión</h2>
                 <div class="info-card">
-                    <h3 style="color: #3498db; margin-bottom: 10px;">Misión</h3>
-                    <p style="margin-bottom: 20px;">[Descripción de la misión de la institución]</p>
+                    <h3 style="color: #3498db;">Misión</h3>
+                    <p>[Misión de la institución]</p>
                     
-                    <h3 style="color: #3498db; margin-bottom: 10px;">Visión</h3>
-                    <p>[Descripción de la visión de la institución]</p>
+                    <h3 style="color: #3498db; margin-top: 20px;">Visión</h3>
+                    <p>[Visión de la institución]</p>
                 </div>
             </section>
         </div>
 
-        <!-- Pie de página mejorado -->
+        <!-- Pie de página -->
         <div class="footer">
             <div class="footer-content">
-                <h3>Unidad Educativa [Nombre]</h3>
+                <h3>Unidad Educativa Enero 23</h3>
                 <p class="footer-subtitle">"Formando con dedicación y excelencia"</p>
                 
                 <div class="footer-contact">
@@ -632,13 +622,12 @@
                     </div>
                     <div class="footer-contact-item">
                         <span>📍</span>
-                        <span>[Dirección completa]</span>
+                        <span>[Dirección]</span>
                     </div>
                 </div>
                 
                 <div class="footer-copyright">
-                    <p>© 2024 Unidad Educativa [Nombre]. Todos los derechos reservados.</p>
-                    <p style="margin-top: 5px; font-size: 0.8em;">Horario de atención: Lunes a Viernes, 8:00 AM - 12:00 PM</p>
+                    <p>© 2024 Unidad Educativa Enero 23</p>
                 </div>
             </div>
         </div>
@@ -646,12 +635,11 @@
 
     <!-- Notificación de copia -->
     <div id="copyNotification" class="copy-notification">
-        ✉️ ¡Correo copiado al portapapeles!
+        ✉️ ¡Correo copiado!
     </div>
 
     <script>
         function copiarCorreo() {
-            // Crear un elemento temporal para copiar el texto
             var tempInput = document.createElement("input");
             tempInput.value = "unidadeducativaenero23@gmail.com";
             document.body.appendChild(tempInput);
@@ -659,11 +647,9 @@
             document.execCommand("copy");
             document.body.removeChild(tempInput);
             
-            // Mostrar notificación
             var notification = document.getElementById("copyNotification");
             notification.style.display = "block";
             
-            // Ocultar después de 3 segundos
             setTimeout(function() {
                 notification.style.display = "none";
             }, 3000);
